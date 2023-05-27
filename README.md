@@ -17,17 +17,14 @@ public class AtmInterface
         int i=1;
         if(pass!=pin)
         {
-            
             while(true)
             {
-                
                 i++;
                 System.out.println("Wrong pin Number!! ");
                 System.out.println("Please Re-enter your pin (Max. Attempts :- 3) : ");
                 pass=sc.nextInt();
                 if(pass==pin)
             {
-                
                 break;
                 
             }
