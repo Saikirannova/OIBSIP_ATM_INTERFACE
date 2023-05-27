@@ -26,7 +26,6 @@ public class AtmInterface
                 if(pass==pin)
             {
                 break;
-                
             }
                 if(i==3){
                     //user will get 3 maximum attempts to re-enter the pin number
