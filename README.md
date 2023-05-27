@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class AtmInterface
 {
     public static void main(String args[])
-    { 
-        
+    {
         int balance = 90000, withdraw, deposit;
         Scanner sc = new Scanner(System.in);
         int pin=3333;
