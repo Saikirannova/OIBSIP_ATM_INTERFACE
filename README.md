@@ -7,6 +7,7 @@ ATM Interface that can give u access to deposit, withdraw, and check balance mon
 import java.util.Scanner;
 public class AtmInterface
 {
+
     public static void main(String args[])
     {
         int balance = 90000, withdraw, deposit;
