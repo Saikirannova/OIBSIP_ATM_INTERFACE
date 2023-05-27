@@ -67,7 +67,7 @@ public class AtmInterface
                     balance=balance-withdraw;
                     System.out.println("");
                     break;
-case 3:
+                    case 3:
                     System.out.print("Enter money to be deposited: ");
                     deposit = sc.nextInt();
                     balance = balance + deposit;
